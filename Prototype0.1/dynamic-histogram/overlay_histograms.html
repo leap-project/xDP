@@ -5,7 +5,9 @@
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Create a div where the graph will take place -->
+<p>Average Glucose Level Count with/without Sally</p>
 <div id="my_histogram"></div>
+
 
 <script>
 
@@ -76,6 +78,12 @@
             .style("fill", "#404080")
             .style("opacity", 0.45)
     
+      // axis label
+      svg.append("text")      // text label for the x axis
+        .attr("x", (width/2 - (margin.left * 2)))
+        .attr("y", 390 )
+        .text("Average Glucose Level [Unit]");
+      
       // legend
       svg.append("circle").attr("cx",300).attr("cy",30).attr("r", 6).style("fill", "#69b3a2")
       svg.append("circle").attr("cx",300).attr("cy",60).attr("r", 6).style("fill", "#404080")
