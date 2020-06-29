@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Sally",
+    "PHN": 123081,
+    "Age": 21,
+    "Cans of Pop": 5,
+    "Glucose Levels": 6
+  },
+  {
+    "Name": "Ali",
+    "PHN": 123412,
+    "Age": 24,
+    "Cans of Pop": 0,
+    "Glucose Levels": 5.3
+  },
+  {
+    "Name": "Bob",
+    "PHN": 453432,
+    "Age": 22,
+    "Cans of Pop": 10,
+    "Glucose Levels": 6.9
+  },
+  {
+    "Name": "Charlie",
+    "PHN": 234284,
+    "Age": 23,
+    "Cans of Pop": 2,
+    "Glucose Levels": 5.4
+  }
+]
